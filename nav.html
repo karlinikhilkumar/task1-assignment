@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color:rgb(39,39,39);
+                color:rgb(168,188,193);
+                
+               
+            }
+           li a,li,a{
+            list-style-type: none;
+            text-decoration: none;
+            color:rgb(168,188,193);
+           
+            text-align: center;
+            display: inline-block;
+            justify-content: space-around;
+            margin-left: 100px;
+            margin-top: 150px;
+            position: relative;
+          
+            
+            
+           }
+           a:hover{
+            color: rgb(238,196,54);
+           }
+           a::after{
+            content: " ";
+            position: absolute;
+            background-color: rgb(238,196,54);
+            height: 3px;
+            width: 0;
+            left: 0;
+            
+           
+           
+            bottom: -10px;
+            transform: scaleX(0);
+            transition: ease-in-out 0.1s;
+            
+            
+           }
+           a:hover:after{
+            width: 100%;
+            background-color: rgb(238,196,54);
+            transform: scaleX(0.1);
+           
+           }
+         
+         
+        </style>
+        </body>
+        <title>navbar</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#"><b>HOME</b></a></li>
+                <li><a href="#"><b>BLOG</b></a></li>
+                <li><a href="#"><b>WORK</b></a></li>
+                <li><a href="#"><b>ABOUT</b></a></li>
+            </ul>
+        </nav>
+    </body>
+</html>

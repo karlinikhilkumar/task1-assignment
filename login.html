@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: black;
+                display: flex;
+                justify-content: center;
+                color: rgb(236,237,237);
+                
+
+            }
+            .container {
+                width: 200px;
+                height: 300px;
+                padding: 50px;
+                padding-bottom: 100px;
+                background-color:rgb(21,23,43) ;
+                margin-top: 100px;
+                border-radius: 10px;
+                position: relative;
+               
+               
+            }
+            .inputbox{
+              padding: 10px;
+              width: 180px;
+             
+              border-radius: 5px;
+              border-style: none;
+              background-color:rgb(48,50,69) ;
+            }
+            #btn{
+                background-color: rgb(0,136,221);
+                padding: 10px;
+                border-style: none;
+                border-radius: 5px;
+                text-align: center;
+                margin-bottom: 100px;
+                width: 170px;
+               margin-left: 10px;
+
+            }
+            .placeholder{
+                position:absolute;
+                top: 172px;
+                margin-left: 10px;
+            background-color: transparent;
+             transition: 2s;
+               
+               
+            }
+           
+          
+           
+
+        </style>
+        <title>login form</title>
+    </head>
+    <body>
+        <div class="container">
+            <h2>welcome</h2>
+            <p>Lets create your account</p>
+            <form action="form">
+                <input type="text" name="name" class="inputbox" > <br><br>
+                <label for="inputbox" class="placeholder">firstname</label>
+                <input type="text" name="name " class="inputbox" > <br> <br>
+                <input type="text" name="email" class="inputbox" ><br> <br> <br>
+                <button id="btn">login</button>
+            </form>
+        </div>
+    </body>
+</html>
